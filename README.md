@@ -19,7 +19,7 @@ To write SQL in our text editor and execute that SQL against a specific database
 
 1 . In the terminal, create a database with the following command: 
 
-`sqlite3 pets_database.db`
+`sqlite3 pets_database.db ""`
 
 **Once you create your database, exit the sqlite prompt with the `.quit` command.**
 
