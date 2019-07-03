@@ -21,7 +21,8 @@ To write SQL in our text editor and execute that SQL against a specific database
 
 `sqlite3 pets_database.db ""`
 
-**Once you create your database, exit the sqlite prompt with the `.quit` command.**
+*Normally we would simply use the command `sqlite3 pets_database.db` which would create the database and immediately start a sqlite3 session where you would start creating tables.*
+
 
 Open up a text editor (such as Sublime Text) and create and save a file `01_create_cats_table.sql`. In this file, write your create statement:
 
